@@ -1,11 +1,15 @@
-const ie = require('iefw'); 
+const Upload = require(iefw); 
 
-const uploader = new ie(); 
+const upload = new Upload(); 
 
-uploader.uploadFile('./path/to/example.txt')
-  .then((fileUrl) => {
-    console.log(`Arquivo enviado com sucesso! URL: ${fileUrl}`);
-  })
-  .catch((err) => {
-    console.error(`Erro ao enviar arquivo: ${err}`);
-  });
+async function main() {
+  try {
+    const fileUrl = await upload.uploadFile('./path/to/example.txt'); 
+
+    console.log(`Arquivo enviado com sucesso! URL: ${fileUrl}`); 
+  } catch (error) {
+    console.error(`Erro ao enviar arquivo: ${error.message}`); 
+  }
+}
+
+main();
