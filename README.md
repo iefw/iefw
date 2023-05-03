@@ -7,7 +7,7 @@
 
 Um Framework para [IECLoud3.5](https://ie.cubiecloud.ml) que permite o upload de arquivos locais para para o site da IECloud na versão 3.0.0/3.5.0
 
-[Changelog](https://github.com/iefw/iefw/iefw3/changelog/README.md)
+[Changelog](https://github.com/iefw/iefw/tree/main/iefw3/changelog)
 
 ### Instalado **IEFW3.5**
 
