@@ -3,53 +3,62 @@
 ) ![forks](https://img.shields.io/github/forks/iefw/iefw?style=flat-square
 )
 
-# IEFW3 - IECloud Framework
+# IEFW3.5 - IECloud Framework
 
-Um Framework de upload de arquivos locais para a o site de upload [IECloud](https://ie-cloud.cubie.com.br) na versão 3.
+Um Framework para [IECLoud3.5](https://ie.cubiecloud.ml) que permite o upload de arquivos locais para para o site da IECloud na versão 3.0.0/3.5.0
 
 [Changelog](https://github.com/iefw/iefw/iefw3/changelog/README.md)
 
-### Instalado **IEFW3**
+### Instalado **IEFW3.5**
 
-A partir do [IEFW3](https://npmjs.org/iefw)/IECloud3 os sistemas mudam completamente com foco em performance.
+Agora e possível ultilizar **3 engines** de upload no código:
 
-##### Via NPM
+**Main:** Motor padrão da IEFW3+ já definido por padrão.
+
+**Zero:** Versão mais leve, otimizado e um pouco instável.
+
+**Zeroplus** Versão melhorada do _zero_ com algumas melhorias nas instabilidades.
+
+##### Instalando Via NPM (RECOMENDADO)
 
 ```
-npm install iefw
+npm install --no-bin-links iefw
 ```
 
-##### [MbCL Repo](https://npmjs.com/mbcl):
+_Em nossas pesquisas, alguns dispositivos ficaram travados no download_
+_Para resolver, adicione `--no-bin-links` nos argumentos npm.
+
+##### Baixando via [MbCL Repo](https://npmjs.com/mbcl):
+
+[_Obtenha o mbcl_](https://github.com/gslks/mbcl)
 
 ```
-./mbcl --dl latest/iefw
+./mbcl get latest/iefw
 ```
 
 ### Enviando Arquivos via IEFW3
 
 
-**Exemplo de código:** [(disponível aqui)](https://github.com/iefw/iefw/iefw3/examples/default.js)
+**Exemplo de código:**
 
 ```js
-const Upload = require(iefw); 
+const ie = require("iefw");
 
-const upload = new Upload(); 
+const uploader = new ie();
+uploader.setEngine('main');
 
-async function main() {
-  try {
-    const fileUrl = await upload.uploadFile('./path/to/example.txt'); 
+uploader.uploadFile('./path/to/example.txt')
+  .then((fileUrl) => {
+    console.log(`Arquivo enviado com sucesso! URL: ${fileUrl}`);
+  })
+  .catch((error) => {
+    console.error(`Erro ao enviar arquivo: ${error}`);
+  });
 
-    console.log(`Arquivo enviado com sucesso! URL: ${fileUrl}`); 
-  } catch (error) {
-    console.error(`Erro ao enviar arquivo: ${error.message}`); 
-  }
-}
-
-main();
 
 ```
 
-* Você pode usar essa base para criação de código com o IEFW3.
+* Você pode usar esta base para fazer a criação de código e automações com o IEFW3.5.
 
 <hr>
 
