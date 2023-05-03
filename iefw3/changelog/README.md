@@ -10,3 +10,16 @@
 * Código mais leve e bugs resolvido (2+)
 
 _Não e possível usar a IECloud1/2 com o [IEFW3](https://www.npmjs.com/package/iefw/v/3.0.0), para isso ultilize o [IEFW2](https://www.npmjs.com/package/iefw/v/2.0.0)_
+
+# 3.5.0
+
+![](https://ie.mbcl.ml/u/03-05-2023/c6mm1a0gw97rj4nj47909/3.5.0.png)
+
+* Adição de **3 Engines** de upload novas. _(main/zero/zeroplus)_
+* Motores de upload mais leves e otimizado para melhorar a velocidade do upload.
+* Novo UI e Backend Otimizado para lidar com novo [IEFW3.5+](https://github.com/iefw/iefw)
+* Correção de pequenos bugs.
+
+# 3.5.1 
+
+* _Sem mudanças significativas_
