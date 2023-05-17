@@ -17,7 +17,7 @@ Agumas pequenas correções foram feitas, veja nossa *changelog* para mais infor
 
 [Changelog](https://github.com/iefw/iefw/tree/main/iefw3/changelog)
 
-### Instalado **IEFW3.5**
+### Instalado **IEFW3.5.5**
 
 Agora e possível ultilizar **3 engines** de upload no código:
 
@@ -44,7 +44,9 @@ _Para resolver, adicione `--no-bin-links` nos argumentos npm.
 ./mbcl get latest/iefw
 ```
 
-### Enviando Arquivos via IEFW3.5.7
+**MBCL Recebeu atualizacoes do IEFW até 3.5.1 !**
+
+### Enviando Arquivos via IEFW3.5.5
 
 
 **Exemplo de código:**
