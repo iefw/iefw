@@ -23,3 +23,10 @@ _Não e possível usar a IECloud1/2 com o [IEFW3](https://www.npmjs.com/package/
 # 3.5.1 
 
 * _Sem mudanças significativas_
+
+# 3.5.5
+
+* Pequenas correções
+* Mudança na URL de upload para enviar erros nos envios.
+
+=> Se você tiver dúvidas, contate-nos: iefw@cubiecloud.ml
