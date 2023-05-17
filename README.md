@@ -3,9 +3,17 @@
 ) ![forks](https://img.shields.io/github/forks/iefw/iefw?style=flat-square
 )
 
-# IEFW3.5 - IECloud Framework
+# DESCONTINUADO (LEIA)
 
-Um Framework para [IECLoud3.5](https://ie.cubiecloud.ml) que permite o upload de arquivos locais para para o site da IECloud na versão 3.0.0/3.5.0
+* **MbCL Repo** não receberá mais atualizações do **IEFW**, baixe via **NPM** para continuar recebendo correções e atualizacoes.
+
+_IEFW Apenas receberá pequenas atualizacoes de **patchs** e correções de pequenos bugs_
+
+<hr>
+
+# IEFW3.5.5 - IECloud Framework (Patch Update)
+
+Agumas pequenas correções foram feitas, veja nossa *changelog* para mais informações.
 
 [Changelog](https://github.com/iefw/iefw/tree/main/iefw3/changelog)
 
@@ -28,7 +36,7 @@ npm install --no-bin-links iefw
 _Em nossas pesquisas, alguns dispositivos ficaram travados no download_
 _Para resolver, adicione `--no-bin-links` nos argumentos npm.
 
-##### Baixando via [MbCL Repo](https://npmjs.com/mbcl):
+##### Baixando via [MbCL Repo](https://npmjs.com/mbcl): **(DESCONTINUADO)**
 
 [_Obtenha o mbcl_](https://github.com/gslks/mbcl)
 
@@ -36,7 +44,7 @@ _Para resolver, adicione `--no-bin-links` nos argumentos npm.
 ./mbcl get latest/iefw
 ```
 
-### Enviando Arquivos via IEFW3
+### Enviando Arquivos via IEFW3.5.7
 
 
 **Exemplo de código:**
@@ -58,8 +66,4 @@ uploader.uploadFile('./path/to/example.txt')
 
 ```
 
-* Você pode usar esta base para fazer a criação de código e automações com o IEFW3.5.
-
 <hr>
-
-[![npm](https://avatars.githubusercontent.com/u/6078720?s=25&v=4)](https://www.npmjs.com/package/iefw)  |  [<img src="https://ie.c2app.ml/u/27-04-2023/u3322ax95wo7f0e56zrp/68747470733a2f2f636c6f75642e63756269652e6d6c2f63756269652f63756269652e706e67.png" width=25 heigh=25>](https://mbcl.ml/latest/iefw/main.zip)
